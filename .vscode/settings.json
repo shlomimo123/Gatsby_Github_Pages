@@ -7,6 +7,5 @@
   "prettier.eslintIntegration": true,
   "prettier.trailingComma": "es5",
   "prettier.singleQuote": true,
-  "http.proxy": "http://shlomimo:Anq121212@10.90.254.205:8080",
-  "https.proxy": "http://shlomimo:Anq121212@10.90.254.205:8080"
+  "http.proxy": "http://shlomimo:Anq121212@10.90.254.205:8080"
 }
