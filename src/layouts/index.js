@@ -5,8 +5,11 @@ import Helmet from 'react-helmet';
 import HeaderComponent from '../components/layout/Header/header';
 import FooterComponent from '../components/layout/Footer/footer';
 import '../../packages/bootstrap4/bootstrap.scss';
+import styled from 'styled-components';
 
-import './main.css';
+const BodySection = styled.div`
+  padding-top: 20px;
+`;
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -18,7 +21,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <HeaderComponent />
-    <div className="container">{children()}</div>
+    <BodySection className="container">{children()}</BodySection>
     <FooterComponent />
   </div>
 );

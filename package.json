@@ -16,11 +16,14 @@
   },
   "devDependencies": {
     "gatsby-plugin-sass": "^1.0.15",
-    "prettier": "^1.8.2"
+    "gatsby-plugin-styled-components": "^2.0.4",
+    "prettier": "^1.8.2",
+    "styled-components": "^2.2.4"
   },
   "dependencies": {
     "gatsby": "^1.9.127",
     "gatsby-link": "^1.6.30",
     "gatsby-plugin-react-helmet": "^1.0.8"
-  }
+  },
+  "repository": "https://shlomimo123@bitbucket.org/matrixcfrontendteam/gatsbyreacttemplete.git"
 }
