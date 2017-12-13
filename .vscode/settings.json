@@ -6,6 +6,6 @@
   "javascript.format.enable": false,
   "prettier.eslintIntegration": true,
   "prettier.trailingComma": "es5",
-  "prettier.singleQuote": true,
-  "http.proxy": "http://shlomimo:Anq121212@10.90.254.205:8080"
+  "prettier.singleQuote": true
+  // "http.proxy": "http://user(without domain):password@10.90.254.205:8080"
 }
