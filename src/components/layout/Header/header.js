@@ -1,33 +1,26 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import MenuComponent from '../Menu/menu';
-import styled from 'styled-components';
+import Navigation from '../Navigation/navigation';
+import './header.scss';
+import logo from '../../../images/rahel-logo.png';
 
-const HeaderWrapper = styled.div`
-  background: rebeccapurple;
-  margin-bottom: 1.45rem;
-  color: white;
-`;
-
-const MenuAndLogoWrapper = styled.div`
-  margin: 0;
-  max-width: 960px;
-  padding: 1.45rem 1.0875rem;
-`;
-
-const HeaderLogo = styled.h1`
-  margin: 0;
-`;
-
-const HeaderComponent = () => (
+const Header = () => (
   <header>
-    <HeaderWrapper>
-      <MenuAndLogoWrapper>
-        <HeaderLogo>Gatsby</HeaderLogo>
-        <MenuComponent />
-      </MenuAndLogoWrapper>
-    </HeaderWrapper>
+    <div className="container">
+      <div className="row no-gutters">
+        <div className="logo-col">
+          <div className="logo">
+            <img src={logo} alt="" className="img-fluid" />
+          </div>
+        </div>
+        <div className="nav-col">
+     
+              <Navigation />
+         
+        </div>
+      </div>
+    </div>
   </header>
 );
 
-export default HeaderComponent;
+export default Header;

@@ -2,32 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
-import HeaderComponent from '../components/layout/Header/header';
-import FooterComponent from '../components/layout/Footer/footer';
-import '../../packages/bootstrap4/bootstrap.scss';
-import styled from 'styled-components';
 
-const BodySection = styled.div`
-  padding-top: 20px;
-`;
+// Stylesheets
+import '../scss/core-rtl.scss';
 
-const TemplateWrapper = ({ children }) => (
+// Components
+import Header from '../components/layout/Header/header';
+// import Footer from '../components/layout/Footer/footer';
+
+export default ({ children }) => (
   <div>
-    <Helmet
-      title="Gatsby Default Starter"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <HeaderComponent />
-    <BodySection className="container">{children()}</BodySection>
-    <FooterComponent />
+    <Header />
+    <div className="">{children()}></div>
+    {/* <Footer /> */}
   </div>
 );
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-};
-
-export default TemplateWrapper;

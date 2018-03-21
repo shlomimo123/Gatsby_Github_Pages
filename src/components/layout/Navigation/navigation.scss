@@ -1,0 +1,21 @@
+.navbar {
+    padding: 0.5rem 0;
+}
+
+.navbar-nav {
+    padding: 0;
+    .nav-item{
+        display: flex;
+        align-items: center;
+    }
+    .nav-link {
+        font-family: 'Almoni DL AAA';
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+

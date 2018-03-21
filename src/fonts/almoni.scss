@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'Almoni DL AAA';
+    src: url('../fonts/almoni/AlmoniDLAAA-Black.eot');
+    src: url('../fonts/almoni/AlmoniDLAAA-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/almoni/AlmoniDLAAA-Black.woff2') format('woff2'), url('../fonts/almoni/AlmoniDLAAA-Black.woff') format('woff'), url('../fonts/almoni/AlmoniDLAAA-Black.svg#AlmoniDLAAA-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-05EA;
+}
+
+@font-face {
+    font-family: 'Almoni DL AAA';
+    src: url('../fonts/almoni/AlmoniDLAAA-Bold.eot');
+    src: url('../fonts/almoni/AlmoniDLAAA-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/almoni/AlmoniDLAAA-Bold.woff2') format('woff2'), url('../fonts/almoni/AlmoniDLAAA-Bold.woff') format('woff'), url('../fonts/almoni/AlmoniDLAAA-Bold.svg#AlmoniDLAAA-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-05EA;
+}
+
+@font-face {
+    font-family: 'Almoni DL AAA';
+    src: url('../fonts/almoni/AlmoniDLAAA-Light.eot');
+    src: url('../fonts/almoni/AlmoniDLAAA-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/almoni/AlmoniDLAAA-Light.woff2') format('woff2'), url('../fonts/almoni/AlmoniDLAAA-Light.woff') format('woff'), url('../fonts/almoni/AlmoniDLAAA-Light.svg#AlmoniDLAAA-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-05EA;
+}
+
+@font-face {
+    font-family: 'Almoni DL AAA';
+    src: url('../fonts/almoni/AlmoniDLAAA.eot');
+    src: url('../fonts/almoni/AlmoniDLAAA.eot?#iefix') format('embedded-opentype'), url('../fonts/almoni/AlmoniDLAAA.woff2') format('woff2'), url('../fonts/almoni/AlmoniDLAAA.woff') format('woff'), url('../fonts/almoni/AlmoniDLAAA.svg#AlmoniDLAAA') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-05EA;
+}
+
+
+html {
+    font-family: 'Almoni DL AAA', sans-serif;
+}

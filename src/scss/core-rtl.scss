@@ -1,0 +1,8 @@
+$dir: rtl;
+@import '../../packages/bootstrap/bootstrap-rtl.scss';
+@import 'core.scss';
+body {
+    direction: $dir;
+    text-align: right;
+    background-color: #e8e8e8;
+}

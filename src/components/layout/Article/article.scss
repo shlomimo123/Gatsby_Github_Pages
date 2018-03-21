@@ -1,0 +1,32 @@
+.article {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  &__block-title {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00aef1;
+  }
+  &__img {
+    max-height: 190px;
+  }
+  &__text-style {
+    position: relative;
+    padding-right: 15px;
+    &::before {
+      content: '';
+      position: absolute;
+      right: 0;
+      background: #00aef1;
+      font-size: 20px;
+      height: 7px;
+      top: 10px;
+      width: 7px;
+      border-radius: 50%;
+    }
+  }
+}

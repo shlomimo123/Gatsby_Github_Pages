@@ -6,11 +6,13 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     'gatsby-plugin-sass',
-    // {
-    //   resolve: `gatsby-plugin-sass`,
-    //   options: {
-    //     precision: 8,
-    //   },
-    // }
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/markdownfiles`,
+        name: 'markdown-pages',
+      },
+    },
+    `gatsby-transformer-remark`,
   ],
 };
