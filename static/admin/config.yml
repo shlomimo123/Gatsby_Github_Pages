@@ -1,6 +1,7 @@
-backend:
-  name: github
-  repo: shlomimo123/Gatsby_Github_Pages #replace with your username/repo
+# backend:
+#  name: github
+#  repo: shlomimo123/Gatsby_Github_Pages #replace with your username/repo
+#  branch: master # Branch to update (master by default)
 
 media_folder: static/assets
 
