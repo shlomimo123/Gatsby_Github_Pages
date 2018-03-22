@@ -2,7 +2,12 @@
 #  name: github
 #  repo: shlomimo123/Gatsby_Github_Pages #replace with your username/repo
 #  branch: master # Branch to update (master by default)
-
+backend:
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+    
 media_folder: static/assets
 
 collections:
